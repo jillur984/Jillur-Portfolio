@@ -140,17 +140,35 @@ span{
 .btn:hover{
     box-shadow: none;
 }
+/*     my code  */
+
+
 .about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
     background: var(--snd-bg-color);
 }
-.about-img img{
-    width: 35vw;
-    
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
 }
+
+.about_img{
+    flex-basis: 1;
+    max-width: "700px";
+    background-color: aqua;
+}
+.about-content{
+    flex-basis: 1;
+    padding: 1rem;
+}
+.img-about{
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+}
+
 .heading{
     text-align: center;
     font-size: 4.5rem;
